@@ -1,4 +1,4 @@
-let btnscrap = document.getElementById('btnscrap')
+let btnscrap = document.getElementById('scrap-profile')
 
 btnscrap.addEventListener('click', async ()=>{
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
